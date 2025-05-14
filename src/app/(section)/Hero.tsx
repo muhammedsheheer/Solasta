@@ -54,10 +54,10 @@ const Hero: React.FC = () => {
         muted
         playsInline
         className="absolute left-0 top-0 h-full w-full object-cover"
-        poster="https://d8q1b3smcycac.cloudfront.net/elpeublo/el-peublo-thumbnail.png"
+        poster="https://d8q1b3smcycac.cloudfront.net/solasta-thumbnail.png"
       >
         <source
-          src="https://d8q1b3smcycac.cloudfront.net/elpeublo/el-peublo-web.mp4"
+          src="https://d8q1b3smcycac.cloudfront.net/solasta/solasta-web.mp4"
           type="video/mp4"
         />
         Your browser does not support the video tag.
