@@ -26,7 +26,7 @@ const Hero = ({}) => {
                 At Solasta, every dish is a true culinary creation, crafted with
                 dedication and finesse. From hand-picked ingredients to expertly
                 refined recipes, we deliver a dining experience where artistry
-                meets flavour. Whether you're savouring a signature main course
+                meets flavour. Whether you`re savouring a signature main course
                 or indulging in a luxurious dessert, each bite showcases our
                 unwavering commitment to quality, innovation, and gastronomic
                 excellence.

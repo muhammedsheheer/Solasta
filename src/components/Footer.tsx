@@ -27,22 +27,22 @@ const Footer = ({}) => {
           <div className="flex flex-col items-center justify-center gap-5 md:gap-8">
             <div className="flex flex-col items-center justify-center">
               <Link
-                href={""}
+                href={"https://g.co/kgs/19Ub2px"}
                 className="font-inter text-sm font-[300] text-[#fff]"
               >
-                49 Allerton Rd, Liverpool L25
+                71 Derby Rd, Huyton, Liverpool L36 9UQ, UK
               </Link>
               <Link
-                href={""}
+                href={"tel:+441514899888"}
                 className="font-inter text-sm font-[300] text-[#fff]"
               >
-                01512451500
+                +44 151 489 9888{" "}
               </Link>
               <Link
-                href={""}
+                href={"mailto:info@galatahuyton.co.uk"}
                 className="font-inter text-sm font-[300] text-[#fff]"
               >
-                moorishl@yahoo.com
+                info@galatahuyton.co.uk
               </Link>
             </div>
             <div className="flex flex-col items-center justify-center gap-1">
@@ -50,18 +50,26 @@ const Footer = ({}) => {
                 Opening hours
               </span>
               <span className="text-center font-inter text-sm font-[300] text-[#fff]">
-                Everyday : From 12.30 To 23.00 <br />
-                Kitchen Closes At 22.00
+                Monday : Closed <br />
+                Tus-Thu : 2pm-10pm <br />
+                Fri-Sat : 1pm-10pm <br />
+                Sunday : 1pm-8pm
               </span>
             </div>
             <div className="flex flex-row gap-4">
-              <Link href={""} target="_blank">
+              <Link
+                href={"https://www.instagram.com/solastasteakhouse/"}
+                target="_blank"
+              >
                 <Icons.instagram className="text-[#fff]" />
               </Link>
-              <Link href={""} target="_blank">
+              <Link href={"https://g.co/kgs/19Ub2px"} target="_blank">
                 <Icons.google className="text-[#fff]" />
               </Link>
-              <Link href={""} target="_blank">
+              <Link
+                href={"https://www.facebook.com/solastaliverpool"}
+                target="_blank"
+              >
                 <Icons.facebook className="text-[#fff]" />
               </Link>
             </div>
@@ -118,22 +126,22 @@ const Footer = ({}) => {
           <div className="flex flex-col items-start justify-start gap-5 md:gap-8">
             <div className="flex flex-col items-start justify-start">
               <Link
-                href={""}
+                href={"https://g.co/kgs/19Ub2px"}
                 className="font-inter text-sm font-[300] text-[#fff]"
               >
-                49 Allerton Rd, Liverpool L25
+                71 Derby Rd, Huyton, Liverpool L36 9UQ, UK
               </Link>
               <Link
-                href={""}
+                href={"tel:+441514899888"}
                 className="font-inter text-sm font-[300] text-[#fff]"
               >
-                01512451500
+                +44 151 489 9888
               </Link>
               <Link
-                href={""}
+                href={"mailto:info@galatahuyton.co.uk"}
                 className="font-inter text-sm font-[300] text-[#fff]"
               >
-                moorishl@yahoo.com
+                info@galatahuyton.co.uk
               </Link>
             </div>
             <div className="flex flex-col items-start justify-start gap-1">
@@ -141,18 +149,26 @@ const Footer = ({}) => {
                 Opening hours
               </span>
               <span className="text-start font-inter text-sm font-[300] text-[#fff]">
-                Everyday : From 12.30 To 23.00 <br />
-                Kitchen Closes At 22.00
+                Monday : Closed <br />
+                Tus-Thu : 2pm-10pm <br />
+                Fri-Sat : 1pm-10pm <br />
+                Sunday : 1pm-8pm
               </span>
             </div>
             <div className="flex flex-row gap-4">
-              <Link href={""} target="_blank">
+              <Link
+                href={"https://www.instagram.com/solastasteakhouse/"}
+                target="_blank"
+              >
                 <Icons.instagram className="text-[#fff]" />
               </Link>
-              <Link href={""} target="_blank">
+              <Link href={"https://g.co/kgs/19Ub2px"} target="_blank">
                 <Icons.google className="text-[#fff]" />
               </Link>
-              <Link href={""} target="_blank">
+              <Link
+                href={"https://www.facebook.com/solastaliverpool"}
+                target="_blank"
+              >
                 <Icons.facebook className="text-[#fff]" />
               </Link>
             </div>

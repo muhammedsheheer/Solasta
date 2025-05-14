@@ -88,12 +88,12 @@ const Contact = ({}) => {
                   </div>
                 </div>
                 <div className="flex flex-col gap-4">
-                  <Link href={"https://g.co/kgs/G93d4R1"} target="_blank">
+                  <Link href={"https://g.co/kgs/19Ub2px"} target="_blank">
                     <p className="font-poppins text-[#9C9E9F]">
-                      64 Derby Rd, Huyton, <br /> Liverpool L36 9YG, UK
+                      71 Derby Rd, Huyton, <br /> Liverpool L36 9UQ, UK
                     </p>
                   </Link>
-                  <Link href={"https://g.co/kgs/G93d4R1"} target="_blank">
+                  <Link href={"https://g.co/kgs/19Ub2px"} target="_blank">
                     <p className="flex items-center gap-2 font-poppins text-sm text-[#9C9E9F]">
                       <span>Get Direction</span>
                       <ArrowRight className="text-[#9C9E9F]" />
@@ -135,32 +135,32 @@ const Contact = ({}) => {
                 <div className="flex flex-col gap-4">
                   <Link
                     className="font-poppins text-[#9C9E9F]"
-                    href={"mailto:umutsahindal@hotmail.com"}
+                    href={"mailto:info@galatahuyton.co.uk"}
                   >
-                    info@elpueblohuyton.com
+                    info@galatahuyton.co.uk
                   </Link>
                 </div>
               </div>
               <div className="flex items-center justify-start gap-4">
                 <Link
-                  href={"https://www.instagram.com/elpuebloliverpool/"}
+                  href={"https://www.instagram.com/solastasteakhouse/"}
                   target="_blank"
                 >
                   <Icons.instagram className="text-[#9C9E9F]" />
                 </Link>
-                <Link
+                {/* <Link
                   href={
                     "https://www.tripadvisor.co.uk/Restaurant_Review-g1727851-d20104388-Reviews-El_Pueblo_Liverpool-Huyton_Merseyside_England.html"
                   }
                   target="_blank"
                 >
                   <Icons.unknown className="text-[#9C9E9F]" />
-                </Link>
-                <Link href={"https://g.co/kgs/G93d4R1"} target="_blank">
+                </Link> */}
+                <Link href={"https://g.co/kgs/19Ub2px"} target="_blank">
                   <Icons.google className="text-[#9C9E9F]" />
                 </Link>
                 <Link
-                  href={"https://www.facebook.com/elpuebloliverpool"}
+                  href={"https://www.facebook.com/solastaliverpool"}
                   target="_blank"
                 >
                   <Icons.facebook className="text-[#9C9E9F]" />
@@ -260,7 +260,7 @@ const Contact = ({}) => {
           </div>
         </div>
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2260.5460382816427!2d-2.8419376234082097!3d53.410921972308074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487b1f5cdd58a3ff%3A0x8f65a358fd2f6c1b!2sEl%20Pueblo!5e1!3m2!1sen!2sin!4v1746604352485!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2260.5431365101354!2d-2.8419134234081955!3d53.410976572308016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487b1f61b6416975%3A0x27b26447d315382a!2sSolasta%20Steakhouse%20%26%20%C3%81%20La%20Carte!5e1!3m2!1sen!2sin!4v1747241195437!5m2!1sen!2sin"
           style={{ border: 0 }}
           allowFullScreen
           loading="lazy"
