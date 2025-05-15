@@ -18,7 +18,7 @@ export default function HomePage() {
   return (
     <main className="relative flex h-full w-full overflow-hidden">
       <div className="flex h-full w-full flex-col items-center justify-center">
-        <Navbar />
+        <Navbar position="absolute" />
         <Hero />
         <Special />
         <Menu />

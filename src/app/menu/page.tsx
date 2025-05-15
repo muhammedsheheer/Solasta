@@ -6,7 +6,7 @@ export default function MenuPage() {
   return (
     <section className="flex w-full flex-col items-center justify-start bg-menubackground">
       <div className="hidden w-full justify-center md:flex">
-        <Navbar />
+        <Navbar position="static" />
       </div>
       <div className="hidden w-full items-center justify-center md:flex">
         <Menu />
