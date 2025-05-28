@@ -14,13 +14,6 @@ import type { TableFormValues } from "./Table-Validation";
 import type { UseMutationResult } from "@tanstack/react-query";
 import type { AxiosResponse } from "axios";
 import { format } from "date-fns";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
 
 interface CustomerDetailsProps {
   form: UseFormReturn<TableFormValues, undefined>;
@@ -41,11 +34,11 @@ const CustomerDetails: FC<CustomerDetailsProps> = ({
                     <p>go to back</p>
                 </div>
             </div> */}
-      <div className="flex w-full flex-col gap-3 bg-primary/30 px-12 py-6">
+      <div className="flex w-full flex-col gap-3 bg-popover px-12 py-6">
         <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
           <div className="flex w-full flex-col gap-2">
-            <p className="text-semibold text-[#9C9E9F]">Date & Time</p>
-            <p className="font-light text-[#9C9E9F]">
+            <p className="text-semibold text-muted">Date & Time</p>
+            <p className="font-light text-muted">
               {form.watch("date")
                 ? format(form.watch("date"), "EEE MMM dd yyyy")
                 : "No date selected"}
@@ -53,8 +46,8 @@ const CustomerDetails: FC<CustomerDetailsProps> = ({
             </p>
           </div>
           <div className="flex w-full flex-col gap-2">
-            <p className="text-semibold text-[#9C9E9F]">No of Guests</p>
-            <p className="font-light text-[#9C9E9F]">
+            <p className="text-semibold text-muted">No of Guests</p>
+            <p className="font-light text-muted">
               {form.watch("guests")
                 ? `${form.watch("guests")} Guests`
                 : "no number of guests selected"}
@@ -62,7 +55,7 @@ const CustomerDetails: FC<CustomerDetailsProps> = ({
           </div>
           <div className="flex w-full items-center md:justify-center">
             <p
-              className="w-fit cursor-pointer border-b-[1px] border-b-[black] text-[#9C9E9F]"
+              className="w-fit cursor-pointer border-b-[1px] border-b-muted text-muted"
               onClick={() => setpage(0)}
             >
               Change Selection
@@ -70,7 +63,7 @@ const CustomerDetails: FC<CustomerDetailsProps> = ({
           </div>
         </div>
       </div>
-      <p className="w-full text-2xl font-semibold text-[#DCCABC]">
+      <p className="w-full text-2xl font-semibold text-muted">
         Complete your request
       </p>
       <div className="grid w-full grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -79,11 +72,11 @@ const CustomerDetails: FC<CustomerDetailsProps> = ({
           name="name"
           render={({ field }) => (
             <FormItem>
-              <FormLabel className="text-[#9C9E9F]">Your Name</FormLabel>
+              <FormLabel className="text-muted">Your Name</FormLabel>
               <FormControl>
                 <Input
                   {...field}
-                  className="h-12 border-[#fff] bg-transparent text-[#9C9E9F]"
+                  className="h-12 border-muted bg-transparent text-muted"
                 />
               </FormControl>
               <FormMessage />
@@ -96,12 +89,12 @@ const CustomerDetails: FC<CustomerDetailsProps> = ({
           name="email"
           render={({ field }) => (
             <FormItem>
-              <FormLabel className="text-[#9C9E9F]">Your Email</FormLabel>
+              <FormLabel className="text-muted">Your Email</FormLabel>
               <FormControl>
                 <Input
                   {...field}
                   type="email"
-                  className="h-12 border-[#fff] bg-transparent text-[#9C9E9F]"
+                  className="h-12 border-muted bg-transparent text-muted"
                 />
               </FormControl>
               <FormMessage />
@@ -114,39 +107,18 @@ const CustomerDetails: FC<CustomerDetailsProps> = ({
           name="phone"
           render={({ field }) => (
             <FormItem>
-              <FormLabel className="text-[#9C9E9F]">Phone Number</FormLabel>
+              <FormLabel className="text-muted">Phone Number</FormLabel>
               <FormControl>
                 <Input
                   {...field}
                   type="tel"
-                  className="h-12 border-[#fff] bg-transparent text-[#9C9E9F]"
+                  className="h-12 border-muted bg-transparent text-muted"
                 />
               </FormControl>
               <FormMessage />
             </FormItem>
           )}
         />
-        {/* <FormField
-          control={form.control}
-          name="place"
-          render={({ field }) => (
-            <FormItem>
-              <FormLabel className="text-[#9C9E9F]">Place</FormLabel>
-              <Select onValueChange={field.onChange} defaultValue={field.value}>
-                <FormControl>
-                  <SelectTrigger className="h-12 border-[#fff] bg-transparent text-[#9C9E9F]">
-                    <SelectValue placeholder="Select Booking Place" />
-                  </SelectTrigger>
-                </FormControl>
-                <SelectContent className="max-h-[300px] text-[#fff]">
-                  <SelectItem value="Terrace">Terrace</SelectItem>
-                  <SelectItem value="Restaurent">Restaurant</SelectItem>
-                </SelectContent>
-              </Select>
-              <FormMessage />
-            </FormItem>
-          )}
-        /> */}
       </div>
 
       <FormField
@@ -154,11 +126,11 @@ const CustomerDetails: FC<CustomerDetailsProps> = ({
         name="request"
         render={({ field }) => (
           <FormItem className="w-full">
-            <FormLabel className="text-[#9C9E9F]">Special Request</FormLabel>
+            <FormLabel className="text-muted">Special Request</FormLabel>
             <FormControl>
               <Textarea
                 {...field}
-                className="min-h-[100px] border-[#fff] bg-transparent text-[#9C9E9F]"
+                className="min-h-[100px] border-muted bg-transparent text-muted"
                 placeholder="Enter any special requests or dietary requirements..."
               />
             </FormControl>
@@ -169,7 +141,7 @@ const CustomerDetails: FC<CustomerDetailsProps> = ({
       <div className="flex w-full justify-center">
         <Button
           type="submit"
-          className="w-fit bg-[#C5DAE8] px-6 py-6 text-[#000] hover:bg-[#bedaec] md:float-right md:w-fit"
+          className="w-fit bg-popover px-6 py-6 font-semibold text-muted md:float-right md:w-fit"
           disabled={bookTableMutation.isPending}
         >
           {bookTableMutation.isPending ? "Booking..." : "Book A Table"}

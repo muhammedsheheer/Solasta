@@ -17,7 +17,6 @@ export const metadata: Metadata = {
   title: "Solasta",
   description: "Solasta",
   icons: [{ rel: "icon", url: "/images/logo.png", sizes: "11x11" }],
-  viewport: "width=device-width, initial-scale=1",
 };
 
 const birthstone = Birthstone({
